@@ -1,6 +1,6 @@
 {
   "name": "random-codes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Configurable random codes generator",
   "main": "lib/random-codes.js",
   "scripts": {
