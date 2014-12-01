@@ -8,7 +8,7 @@ Install using [npm](http://github.com/isaacs/npm):
 
     $ npm install random-codes
     
-## Instantiation
+## Usage
 You can crete a RandomCodes object with your own config array
 
 ```javascript
@@ -23,7 +23,7 @@ var code = rc.generate();
 // >> 'S5RU-1K1U-F77Z'
 ```
 
-## Code validation
+### Code validation
 The validation function gets a user input and returns it formatted as defined by the config array
 
 ```javascript
