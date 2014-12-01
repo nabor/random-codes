@@ -54,7 +54,8 @@ var config = {
     // Size of each part
     part_size: 4,
     
-    // Function used to get a random char from the chars pool (Please use a better one) 
+    // Function used to get a random char from the chars pool 
+    // (Please use a better one) 
     getChar: function (pool) {
         var random = Math.floor(Math.random() * pool.length);
         return pool.charAt(random);
